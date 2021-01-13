@@ -1,0 +1,12 @@
+@font-face {
+    font-family: "Emilys Candy";
+    src: url("chrome-extension://__MSG_@@extension_id__/assets/EmilysCandy-Regular.ttf");
+}
+
+.spooky {
+    font-family: "Emilys Candy", cursive !important;
+}
+
+.signature {
+    display: none;
+}

@@ -1,0 +1,29 @@
+{
+  "name": "BYOB Experiments",
+  "version": "2",
+  "description": "Mess around with SomethingAwful's BYOB forum",
+  "content_scripts": [
+    {
+      "matches": ["https://forums.somethingawful.com/*"],
+      "js": [
+        "english.js",
+        "banners.js",
+        "byob.js"
+      ],
+      "css": [
+        "byob.css"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "icons": {
+    "128": "assets/cat-128.png"
+  },
+  "web_accessible_resources": [
+    "assets/cat.png",
+    "assets/EmilysCandy-Regular.ttf"
+  ],
+  "permissions": [
+  ],
+  "manifest_version": 2
+}
